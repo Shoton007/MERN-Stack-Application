@@ -6,7 +6,7 @@ function ExpenseDetails({ incomeAmt, expenseAmt }) {
             <div>
                 Your Balance is ₹ {incomeAmt - expenseAmt}
             </div>
-            {/* Show Income & Expense amount */}
+        
             <div className="amounts-container">
                 Income
                 <span className="income-amount">₹{incomeAmt}</span>
